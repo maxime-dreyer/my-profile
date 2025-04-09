@@ -1,12 +1,13 @@
 
 body {
+  background: url('https://images.unsplash.com/photo-1547721064-da6cfb2c4c6f') no-repeat center center fixed;
+  background-size: cover;
   font-family: 'Helvetica', sans-serif;
   background-color: #f9f9f9;
   margin: 0;
   padding: 0;
-  background: url('https://images.unsplash.com/photo-1547721064-da6cfb2c4c6f') no-repeat center center fixed;
-  background-size: cover;
 }
+
 
 }
 
