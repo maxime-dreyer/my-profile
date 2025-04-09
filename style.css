@@ -4,26 +4,37 @@ body {
   background-color: #f9f9f9;
   margin: 0;
   padding: 0;
+  background: url('https://images.unsplash.com/photo-1547721064-da6cfb2c4c6f') no-repeat center center fixed;
+  background-size: cover;
+}
+
 }
 
 .container {
   width: 700px;
   margin: 40px auto;
+  background-color: #f7f7f7;  /* Fond gris clair */
+  padding: 20px;              /* Un peu d’espace autour */
+  border-radius: 8px;         /* Coins arrondis */
 }
+
 
 .card-white {
   background-color: white;
   padding: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 40px; /* Espacement plus grand entre les cartes */
   border-radius: 5px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #ddd;     /* Bordure légère */
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border 0.2s ease; /* Transition pour bordure */
 }
 
 .card-white:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  border: 1px solid #007BFF; /* Bordure bleue au survol */
 }
+
 
 .avatar {
   width: 150px;
@@ -48,8 +59,10 @@ body {
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: #0056b3;   /* Change la couleur de fond */
+  transform: scale(1.05);       /* Agrandit légèrement le bouton */
 }
+
 
 .text-center {
   text-align: center;
